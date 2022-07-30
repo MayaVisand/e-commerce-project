@@ -129,6 +129,7 @@
     color: rgba(0, 0, 0, 0.3);
 }
 
+
 .productColorText {
     position: absolute;
     width: 43px;
@@ -151,14 +152,22 @@
     color: rgba(0, 0, 0, 0.3);
 }
 
-.productColorImg img {
-    display: inline-block;
-    box-sizing: border-box;
+.productColorImg {
     position: absolute;
-    width: 80px;
+    /*display: inline-block;*/
+    box-sizing: border-box;
     height: 80px;
     left: 1085px;
     top: 449px;
+
+}
+.productColorImg img {
+    /*display: inline-block;*/
+    box-sizing: border-box;
+
+    width: 80px;
+    height: 80px;
+
 
     /* Accent 1 / 4 */
     border: 1px solid #2D74FF;
@@ -167,8 +176,9 @@
 
 .productSizeBox {
     position: absolute;
-    width: 89px;
-    height: 18px;
+    display: inline;
+    width: 360px;
+    height: 50px;
     left: 1085px;
     top: 556px;
 
@@ -190,8 +200,8 @@
 
 .productSize {
     box-sizing: border-box;
-
-    position: absolute;
+display: table-row;
+    text-align: center;
     width: 360px;
     height: 50px;
     left: 1085px;
@@ -227,6 +237,16 @@
 
     /* Base / White */
     color: #FFFFFF;
+}
+
+.aditionalInfo {
+    /* Additional info */
+
+    position: absolute;
+    width: 360px;
+    height: 266px;
+    left: 1085px;
+    top: 754px;
 }
 
 .detailsDropdown {
@@ -280,7 +300,5 @@
     border: #000000 solid 0.5px;
     border-collapse: inherit;
     width: 355px;
-    margin-left: 155px;
-
     opacity: 10%;
 }

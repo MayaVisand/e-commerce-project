@@ -42,12 +42,15 @@ const ProductPage = () => {
 
                         <button className={styles.addBtn}>Add to chart</button>
                         <div className={styles.lineDeviderSmall}></div>
-                        <div className={styles.detailsDropdown}>
-                            <div>Details</div>
+                        <div className={styles.aditionalInfo}>
+                            <div className={styles.detailsDropdown}>
+                                <div>Details</div>
+                            </div>
+                            <div className={styles.shippingDropdown}>
+                                <div>Shipping & Returns</div>
+                            </div>
                         </div>
-                        <div className={styles.shippingDropdown}>
-                            <div>Shipping & Returns</div>
-                        </div>
+
                     </div>
                 </div>
                 <div className={styles.lineDevider}></div>
