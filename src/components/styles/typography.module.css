@@ -1,0 +1,25 @@
+/* TYPOGRAPHY */
+@font-face {
+    font-family: Inter;
+
+}
+.h4 {
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: -1.2px;
+}
+
+/* Caption / 3 / Medium */
+.c3 {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+letter-spacing: -0.5px;
+color: #000000;
+}
