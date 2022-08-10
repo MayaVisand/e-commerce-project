@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./styles/ProductPage.module.css";
+import AlsoLike from "./AlsoLike";
 
 
 const ProductPage = () => {
@@ -29,7 +30,7 @@ const ProductPage = () => {
                         <div className={styles.productColorBox}>
                             <div className={styles.productColorText}>color:Black</div>
                             <div className={styles.productColorImg}>
-                                <img src={require ("../images/Products/color/img1.png")} alt="color"/>
+                                <img className={styles.active} src={require ("../images/Products/color/img1.png")} alt="color"/>
                                 <img src={require ("../images/Products/color/img2.png")} alt="color"/>
                                 <img src={require ("../images/Products/color/img3.png")} alt="color"/>
                                 <img src={require ("../images/Products/color/img4.png")} alt="color"/>
@@ -55,7 +56,7 @@ const ProductPage = () => {
                 </div>
                 <div className={styles.lineDevider}></div>
             </div>
-
+            <AlsoLike/>
         </div>
 
     );

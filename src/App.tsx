@@ -1,15 +1,25 @@
 import React from 'react';
 import './App.css';
 import ProductPage from "./components/ProductPage";
-import AlsoLike from "./components/AlsoLike";
+
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import {Routes, Route, BrowserRouter} from "react-router-dom";
+// import store from "../src/redux/store";
+
 function App() {
     return (
-        <div className='mainDiv'>
+        <div className="app-wrapper">
             <Header/>
-            <ProductPage/>
-            <AlsoLike/>
-            <div>Footer/Base</div>
+
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/'
+                           element={<ProductPage/>}/>
+                </Routes>
+            </BrowserRouter>
+
+            <Footer/>
         </div>
 
     )

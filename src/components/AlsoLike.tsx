@@ -10,7 +10,7 @@ import Pagionations from "./Pagionations";
 const roductPrevie = []
 const AlsoLike = () => {
 
-    // let productGalleryElements = productsPrevie.map(element => <ProductGallery productElement={element}/>
+    // let productGalleryElements = productsPrevie.map(element => <Footer productElement={element}/>
     return (<div className={styles.productPage}>
         <h4>You might also like</h4>
         <div className={styles.photoBox}>

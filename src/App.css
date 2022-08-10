@@ -1,11 +1,11 @@
-.mainDiv {
+.app-wrapper {
     width: 1600px;
     /*border: red solid 1px;*/
     position: relative;
     background: #FFFFFF;
 }
 
-.mainDiv div {
+.app-wrapper div {
     /*border: red solid 1px;*/
 }
 

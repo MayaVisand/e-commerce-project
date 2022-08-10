@@ -1,0 +1,49 @@
+/* Footer */
+.footer
+{
+    position: relative;
+    width: 1600px;
+    height: 478px;
+    margin-top: 63px;
+}
+
+/*Base*/
+.base
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Base / Black */
+
+    background: #000000;
+}
+
+/*TelRan*/
+.telRan
+{
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    right: 1315px;
+    top: 413px;
+
+    /* Caption / 2 / Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    /* Grey / Light / 4 */
+
+    color: rgba(255, 255, 255, 0.5);
+}

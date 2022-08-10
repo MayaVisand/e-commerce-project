@@ -2,6 +2,7 @@
     display: inline-flex;
     margin-bottom: 77.5px;
 }
+
 .breadcrums {
     margin-top: 30px;
     margin-left: 155px;
@@ -19,6 +20,7 @@
     display: inline;
     width: 50%;
 }
+
 .productInfoBox {
     display: inline;
     width: 360px;
@@ -28,6 +30,7 @@
     margin-right: 155px;
     margin-left: 80px;
 }
+
 .discount {
     /* Auto layout */
     display: flex;
@@ -67,7 +70,7 @@
     color: #000000;
 }
 
-.description{
+.description {
     position: absolute;
     width: 300px;
     height: 69px;
@@ -108,7 +111,7 @@
     color: #000000;
 }
 
-.price{
+.price {
     position: absolute;
     width: 38px;
     height: 30px;
@@ -161,14 +164,16 @@
     top: 449px;
 
 }
+
 .productColorImg img {
     /*display: inline-block;*/
     box-sizing: border-box;
 
     width: 80px;
     height: 80px;
+}
 
-
+.productColorImg img .active {
     /* Accent 1 / 4 */
     border: 1px solid #2D74FF;
     border-radius: 10px;
@@ -200,8 +205,12 @@
 
 .productSize {
     box-sizing: border-box;
-display: table-row;
-    text-align: center;
+    display: table-row;
+    /*text-align: center;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 18px;
+
     width: 360px;
     height: 50px;
     left: 1085px;
@@ -292,11 +301,13 @@ display: table-row;
     border: #000000 solid 0.5px;
     border-collapse: inherit;
     width: 1290px;
-   margin-left: 155px;
+    margin-left: 155px;
 
     opacity: 10%;
 }
+
 .lineDeviderSmall {
+
     border: #000000 solid 0.5px;
     border-collapse: inherit;
     width: 355px;
